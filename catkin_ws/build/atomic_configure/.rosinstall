@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/siruu/Desktop/ros_ws/carla-autoware/catkin_ws/devel/setup.sh

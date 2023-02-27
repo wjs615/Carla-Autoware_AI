@@ -1,0 +1,8 @@
+prefix=/home/siruu/Desktop/ros_ws/carla-autoware/catkin_ws/install
+
+Name: carla_autoware_bridge
+Description: Description of carla_autoware_bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy
