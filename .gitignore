@@ -1,3 +1,7 @@
 autoware_data/
 docker/
 docs/
+.gitmodules
+CHANGELOG.md
+LICENSE
+README.md
