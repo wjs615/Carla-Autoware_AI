@@ -73,6 +73,7 @@ from carla_msgs.msg import CarlaCollisionEvent
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import Image
 from sensor_msgs.msg import NavSatFix
+#from sensor_msgs.msg import Imu                                          23.02.28 test
 from std_msgs.msg import Bool
 
 # ==============================================================================
