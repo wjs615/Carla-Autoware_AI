@@ -5,3 +5,4 @@ docs/
 CHANGELOG.md
 LICENSE
 README.md
+catkin_ws/src/ros-bridge/carla_spawn_objects/config/objects.json
