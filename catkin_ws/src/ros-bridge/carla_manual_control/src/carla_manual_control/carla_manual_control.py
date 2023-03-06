@@ -56,7 +56,9 @@ try:
     from pygame.locals import K_q
     from pygame.locals import K_s
     from pygame.locals import K_w
-    from pygame.locals import K_b
+    from pygame.locals import K_b    
+    #from pygame.locals import K_n                           number key
+    from pygame.locals import K_r
 except ImportError:
     raise RuntimeError('cannot import pygame, make sure pygame package is installed')
 
@@ -251,7 +253,7 @@ class KeyboardControl(object):
                     self._autopilot_enabled = not self._autopilot_enabled
                     self.set_autopilot(self._autopilot_enabled)
                     self.hud.notification('Autopilot %s' %
-                                          ('On' if self._autopilot_enabled else 'Off'))
+                                          ('On' if self._autopilot_enabled else 'Off'))                                 
         if not self._autopilot_enabled and self.vehicle_control_manual_override:
             self._parse_vehicle_keys(pygame.key.get_pressed(), clock.get_time())
             self._control.reverse = self._control.gear < 0
